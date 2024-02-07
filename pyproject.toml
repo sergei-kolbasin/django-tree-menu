@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tree-menu"
+version = "2.0"
+description = "this is simple tree-menu for web app"
+authors = ["Sergei Kolbasin"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.2"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

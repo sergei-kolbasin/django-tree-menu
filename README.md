@@ -25,3 +25,14 @@ Flake8 was used to test the code on PEP8, so you need to select 2 commands befor
 3. Run container
 
         <docker run -p -t 8000:8000 tree-menu>
+
+## Prettier
+
+If you or your team don’t want to formatting program code, Prettier can do everything itself.
+Just download it with npm
+
+        <npm install --save-dev --save-exact prettier>
+
+Before commit run 
+
+         <npx prettier --write>
